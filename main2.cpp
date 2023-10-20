@@ -1,5 +1,9 @@
 #include "c-echo.h"
 
 int main(int argv, char** argc) {
-    std::cout << echo(argv, argc);
+<<<<<<< HEAD
+    std::cout << echo(argv, argc)<<std::endl;
+=======
+    std::cout << echo(argv, argc) << std::endl;
+>>>>>>> main
 }
