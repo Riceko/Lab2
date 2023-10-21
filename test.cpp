@@ -4,6 +4,7 @@
 #include "gtest/gtest.h"
 
 TEST(EchoTest, HelloWorld) {
+<<<<<<< HEAD
     char* test_val[3]; test_val[0] = "./c-echo-count"; test_val[1] = "hello"; test_val[2] = "world";
     EXPECT_EQ("hello world", echo(3,test_val));
 }
@@ -28,7 +29,9 @@ TEST(CountTest, ManySpaces) {
     EXPECT_EQ(5, count(test_str));
 }
 
+
+
 int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
+  ::testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
 }
