@@ -5,10 +5,6 @@ ADD_SUBDIRECTORY(googletest)
 ADD_EXECUTABLE(c-echo
     main2.cpp
 )
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 ADD_EXECUTABLE(c-echo-count
     main.cpp
 )
